@@ -32,7 +32,7 @@ RUN if [ -z "${RELEASE_TAG}" ]; then \
     cp ${OPENVSCODE_SERVER_ROOT}/bin/remote-cli/openvscode-server ${OPENVSCODE_SERVER_ROOT}/bin/remote-cli/code && \
     rm -f ${RELEASE_TAG}-linux-${arch}.tar.gz
 
-ARG USERNAME=openvscode-server
+ARG USERNAME=yajith
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 
